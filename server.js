@@ -18,7 +18,6 @@ const messages = [
 
 app.get("/", (req,res) => {
     res.render("index", {title: "Mini Messageboard", messages: messages});
-
 })
 
 app.get("/new", (req,res) => {
