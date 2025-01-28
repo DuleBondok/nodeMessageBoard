@@ -21,7 +21,9 @@ app.get("/", (req,res) => {
 })
 
 app.get("/new", (req,res) => {
-    res.send("This is the new route");
+    res.render("form")
 })
+
+app.post("/new")
 
 app.listen(3000);
