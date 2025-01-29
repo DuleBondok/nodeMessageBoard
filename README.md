@@ -1,3 +1,5 @@
+![Example Image](/screenshot.png)
+
 # Node.js Message Board
 
 Welcome to the **Node.js Message Board** project! This is a simple message board application built using **Node.js** and **Express**. It allows users to post messages with their names, and view all previously posted messages. The messages are stored in a file, making it easy to persist them across page reloads.
