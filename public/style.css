@@ -72,6 +72,7 @@ header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 1rem;
+    height: 6vh;
   }
 
   .newMessageBtn:hover {
@@ -125,3 +126,43 @@ header {
     flex-direction: column;
     margin-left: 1vw;
   }
+
+.inputForm {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    position: absolute;
+    left: 33vw;
+    top: 20vh;
+    height: 30vh;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameInput {
+    width: 50%;
+}
+
+.messageInput {
+    width: 50%;
+}
+
+.submitBtn {
+    width: 5vw;
+}
+
+.nameLabel {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(210, 91, 7); 
+    font-size: 1.3rem;
+}
+
+.messageLabel {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(210, 91, 7);
+    font-size: 1.3rem;
+}

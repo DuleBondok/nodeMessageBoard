@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <h1>Send a new message!</h1>
-    <form action="/new" method="POST">
-        <label>Input your name:</label>
-        <input type="text" name="authorName">
-        <label>Input your message:</label>
-        <input type="text" name="messageText">
-        <button>Submit</button>
+    <form action="/new" method="POST" class="inputForm">
+        <label class="nameLabel">Input your name:</label>
+        <input type="text" name="authorName" class="nameInput">
+        <label class="messageLabel">Input your message:</label>
+        <input type="text" name="messageText" class="messageInput">
+        <button class="submitBtn">Submit</button>
     </form>
     
 </body>
