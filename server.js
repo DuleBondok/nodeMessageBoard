@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 
 app.set("view engine", "ejs");
+app.use(express.static("public"));
 
 app.use(express.urlencoded({extended: true}));  
 
@@ -30,7 +31,7 @@ app.post("/new", (req,res) => {
     const {authorName, messageText} = req.body;
 
     if(authorName && messageText) {
-        messages.push({text: messageText, user: authorName, added: new Date()});
+        messages.unshift({text: messageText, user: authorName, added: new Date()});
     }
 
     res.redirect("/");
