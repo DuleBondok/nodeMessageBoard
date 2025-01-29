@@ -166,3 +166,10 @@ header {
     color: rgb(210, 91, 7);
     font-size: 1.3rem;
 }
+
+.sendMessageHeader {
+    position: absolute;
+    color: rgb(210, 91, 7);
+    left: 39vw;
+    top: 5vh;
+}
