@@ -18,6 +18,6 @@ Welcome to the **Node.js Message Board** project! This is a simple message board
 
 
 ## 💻 Built With
-![javascript](https://skillicons.dev/icons?i=js,react&perline=10](https://skillicons.dev/icons?i=html,css,js,nodejs,express)
+![javascript](https://skillicons.dev/icons?i=html,css,js,nodejs,express)
 
 # Live Demo: [https://nodemessageboard.onrender.com/]
